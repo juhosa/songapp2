@@ -10,6 +10,7 @@ function App() {
   const { loadSongs } = useSongs();
   useEffect(() => {
     loadSongs();
+    // eslint-disable-next-line
   }, []);
 
   return (

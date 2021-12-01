@@ -6,6 +6,7 @@ const useSongs = () => {
 
   useEffect(() => {
     filterSongs();
+    // eslint-disable-next-line
   }, [state.searchWord, state.filterby, state.songs]);
 
   const loadSongs = async () => {
