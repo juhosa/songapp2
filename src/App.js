@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="flex flex-row h-screen bg-gray-100">
       <div className="w-64 bg-gray-300 p-4 flex flex-col space-y-4">
-        <Title appname="SongApp" />
+        <Title appname="SongApp PRO" />
 
         <FilterBy />
 
